@@ -76,7 +76,7 @@ function Header() {
 
 function EstimateForm() {
   return (
-    <form action="https://formspree.io/f/xaqydzvv" method="post" className="shadow-border rounded-xl bg-white p-5 sm:p-6">
+    <form action="https://formspree.io/f/meeqrnww" method="post" className="shadow-border rounded-xl bg-white p-5 sm:p-6">
       <input type="hidden" name="_subject" value="New Nebraska bed bug estimate request" />
       <input type="hidden" name="_next" value="https://bedbugsne.com/thank-you" />
       <input type="hidden" name="source" value="bedbugsne.com landing page" />
