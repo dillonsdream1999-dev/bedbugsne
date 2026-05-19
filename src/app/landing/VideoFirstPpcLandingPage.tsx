@@ -26,7 +26,7 @@ export type VideoFirstPpcLandingContent = {
 };
 
 const phoneDisplay = "402-509-8890";
-const phoneDigits = "4025098890";
+const textDigits = "8167726925";
 const phoneHref = "tel:4025098890";
 const financeUrl = "https://americanfirstfinance.com/app/?dealer=8450&loc=1&src=UA";
 const formspreeEndpoint = "https://formspree.io/f/meeqrnww";
@@ -214,7 +214,7 @@ function JsonLd({ content }: { content: VideoFirstPpcLandingContent }) {
 }
 
 export function VideoFirstPpcLandingPage({ content }: { content: VideoFirstPpcLandingContent }) {
-  const smsHref = `sms:${phoneDigits}?body=${encodeURIComponent(
+  const smsHref = `sms:${textDigits}?body=${encodeURIComponent(
     content.smsBody ?? "Hi, I watched the bed bug heat treatment video and need help with next steps."
   )}`;
   const recapBullets = content.recapBullets ?? defaultRecapBullets;

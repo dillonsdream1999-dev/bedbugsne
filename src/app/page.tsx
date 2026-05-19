@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const phoneDisplay = "402-509-8890";
-const phoneDigits = "4025098890";
+const textDigits = "8167726925";
 const phoneHref = "tel:4025098890";
-const smsHref = `sms:${phoneDigits}?body=${encodeURIComponent(
+const smsHref = `sms:${textDigits}?body=${encodeURIComponent(
   "Hi, I watched the bed bug heat treatment video and need help with next steps."
 )}`;
 const financeUrl = "https://americanfirstfinance.com/app/?dealer=8450&loc=1&src=UA";
@@ -344,7 +344,7 @@ export default function Home() {
 
       <div className="fixed inset-x-0 bottom-0 z-50 grid grid-cols-3 gap-2 border-t border-slate-200 bg-white/95 p-2 shadow-2xl backdrop-blur md:hidden">
         <a href={phoneHref} className="rounded-xl bg-amber-500 px-3 py-3 text-center text-sm font-bold text-white">Call</a>
-        <a href="#watch-video" className="rounded-xl bg-blue-900 px-3 py-3 text-center text-sm font-bold text-white">Video</a>
+        <a href={smsHref} className="rounded-xl bg-blue-900 px-3 py-3 text-center text-sm font-bold text-white">Text</a>
         <a href="#free-estimate" className="rounded-xl border border-slate-300 px-3 py-3 text-center text-sm font-bold text-blue-900">Estimate</a>
       </div>
     </main>
