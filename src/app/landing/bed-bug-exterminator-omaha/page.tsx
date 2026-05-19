@@ -39,7 +39,7 @@ export default function BedBugExterminatorOmahaLandingPage() {
           "This short video shows why we use whole-home heat instead of chasing bed bugs room by room.",
         videoLabel: "Watch this before you hire an exterminator",
         submissionSource: "ppc-video-exterminator-omaha-landing",
-        smsBody: "Hi, I watched the Omaha bed bug exterminator video and have a question.",
+        smsBody: "I have a question about bed bugs",
         recapTitle: "Here’s what makes our approach different.",
         recapBullets: [
           "We specialize in bed bugs instead of treating them like a routine pest call.",

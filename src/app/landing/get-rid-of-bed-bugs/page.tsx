@@ -39,7 +39,7 @@ export default function GetRidOfBedBugsLandingPage() {
           "This short video shows the fastest professional path to get bed bugs and eggs gone completely.",
         videoLabel: "Watch before you spray again",
         submissionSource: "ppc-video-get-rid-of-bed-bugs-landing",
-        smsBody: "Hi, I watched the get rid of bed bugs video and need help with next steps.",
+        smsBody: "I have a question about bed bugs",
         recapTitle: "Here’s the fastest real path.",
         recapBullets: [
           "Confirm what you found before wasting time on the wrong treatment.",

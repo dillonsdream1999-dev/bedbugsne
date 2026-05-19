@@ -215,7 +215,7 @@ function JsonLd({ content }: { content: VideoFirstPpcLandingContent }) {
 
 export function VideoFirstPpcLandingPage({ content }: { content: VideoFirstPpcLandingContent }) {
   const smsHref = `sms:${textDigits}?body=${encodeURIComponent(
-    content.smsBody ?? "Hi, I watched the bed bug heat treatment video and need help with next steps."
+    content.smsBody ?? "I have a question about bed bugs"
   )}`;
   const recapBullets = content.recapBullets ?? defaultRecapBullets;
 

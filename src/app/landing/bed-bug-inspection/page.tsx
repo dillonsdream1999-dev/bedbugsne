@@ -39,7 +39,7 @@ export default function BedBugInspectionLandingPage() {
           "This short video shows what matters, what not to panic over, and when to ask for help.",
         videoLabel: "Watch before you keep searching",
         submissionSource: "ppc-video-inspection-landing",
-        smsBody: "Hi, I watched the bed bug inspection video and have a question about what I found.",
+        smsBody: "I have a question about bed bugs",
         recapTitle: "Here’s the inspection shortcut.",
         recapBullets: [
           "Look for patterns: live bugs, eggs, shed skins, dark spotting, and bites that keep returning.",

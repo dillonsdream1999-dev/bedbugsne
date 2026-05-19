@@ -39,7 +39,7 @@ export default function BedBugTreatmentCostLandingPage() {
           "This short video helps explain what affects price and why the cheapest option can cost more if bed bugs survive.",
         videoLabel: "Watch before comparing prices",
         submissionSource: "ppc-video-treatment-cost-landing",
-        smsBody: "Hi, I watched the bed bug treatment cost video and would like an estimate.",
+        smsBody: "I have a question about bed bugs",
         recapTitle: "Here’s the pricing short version.",
         recapBullets: [
           "Cost depends on the home size, layout, contents, preparation, and infestation conditions.",

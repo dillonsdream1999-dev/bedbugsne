@@ -5,7 +5,7 @@ const phoneDisplay = "402-509-8890";
 const textDigits = "8167726925";
 const phoneHref = "tel:4025098890";
 const smsHref = `sms:${textDigits}?body=${encodeURIComponent(
-  "Hi, I watched the bed bug heat treatment video and need help with next steps."
+  "I have a question about bed bugs"
 )}`;
 const financeUrl = "https://americanfirstfinance.com/app/?dealer=8450&loc=1&src=UA";
 const formspreeEndpoint = "https://formspree.io/f/meeqrnww";
